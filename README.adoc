@@ -1,0 +1,29 @@
+:relrootdir: .
+= README
+
+include::settings.adoc[]
+
+relrootdir={relrootdir} +
+docdir={docdir}
+
+== Kontakte
+
+ifdef::de[robert@cardsplus.de]
+ifdef::at[robert@cardsplus.at]
+ifndef::de,at[Keine Angabe]
+
+== xref:{relrootdir}/doc/HELPME.adoc[doc-Ordner]
+
+.Asciidoc-Settings
+[source, subs=attributes+, options="nowrap"]
+----
+include::./settings.adoc[]
+----
+
+== xref:{relrootdir}/src/HELPME.adoc[src-Ordner]
+
+.Gradle-Settings
+[source, subs=attributes+, options="nowrap"]
+----
+include::./settings.gradle[]
+----

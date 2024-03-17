@@ -1,0 +1,7 @@
+:relrootdir: ..
+= HELPME
+
+include::../settings.adoc[]
+
+relrootdir={relrootdir} +
+docdir={docdir}

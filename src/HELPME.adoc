@@ -1,0 +1,10 @@
+:relrootdir: ..
+:packagedir: src/main/java/esy/cardsplus
+= HELPME
+
+include::../settings.adoc[]
+
+relrootdir={relrootdir} +
+docdir={docdir}
+
+xref:{relrootdir}/{packagedir}/Asciidoctor.adoc[Asciidoctor]

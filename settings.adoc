@@ -1,0 +1,13 @@
+// https://asciidoc.org/
+// https://asciidoctor.org/
+:experimental: true
+:icons: font
+:caution-caption: Achtung
+:important-caption: Wichtig
+:note-caption: Hinweis
+:tip-caption: Beachte
+:warning-caption: Warnung
+:appendix-caption: Anhang
+:example-caption: Beispiel
+:figure-caption: Abbildung
+:table-caption: Tabelle
