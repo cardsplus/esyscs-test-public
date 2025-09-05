@@ -1,9 +1,11 @@
 :relrootdir: .
 = README
 
-include::settings.adoc[]
+include::{relrootdir}/settings.adoc[]
 
 relrootdir={relrootdir} +
+relfileprefix={relfileprefix} +
+relfilesuffix={relfilesuffix} +
 docdir={docdir}
 
 == Kontakte
@@ -17,7 +19,7 @@ ifndef::de,at[Keine Angabe]
 .Asciidoc-Settings
 [source, subs=attributes+, options="nowrap"]
 ----
-include::./settings.adoc[]
+include::{relrootdir}/settings.adoc[]
 ----
 
 == xref:{relrootdir}/src/HELPME.adoc[src-Ordner]
@@ -25,5 +27,5 @@ include::./settings.adoc[]
 .Gradle-Settings
 [source, subs=attributes+, options="nowrap"]
 ----
-include::./settings.gradle[]
+include::{relrootdir}/settings.gradle[]
 ----

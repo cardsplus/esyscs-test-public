@@ -1,5 +1,19 @@
-Asciidoctor is a fast, open source, Ruby-based text processor for parsing AsciiDoc® into a document model and converting it to output formats such as HTML 5, DocBook 5, manual pages, PDF, EPUB 3, and other formats.
-AsciiDoc is the language.
-Asciidoctor is the processor.
+:relrootdir: ../../../../..
+= Asciidoctor
 
-The Asciidoctor project is an effort to bring a comprehensive and accessible publishing toolchain, centered around the AsciiDoc syntax, to a growing range of ecosystems, including Ruby, JavaScript and the JVM.
+include::{relrootdir}/settings.adoc[]
+
+relrootdir={relrootdir} +
+relfileprefix={relfileprefix} +
+relfilesuffix={relfilesuffix} +
+docdir={docdir}
+
+_AsciiDoc_ is the language.
+_Asciidoctor_ is the processor.
+
+[source,java,options="nowrap"]
+----
+include::Asciidoctor.java[indent=0]
+----
+
+The _Asciidoctor_ project is an effort to bring a comprehensive and accessible publishing toolchain, centered around the AsciiDoc syntax, to a growing range of ecosystems, including Ruby, JavaScript and the JVM.

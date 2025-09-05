@@ -6,5 +6,5 @@ package esy.cardsplus;
  * to output formats such as HTML 5, DocBook 5, manual pages, PDF, 
  * EPUB 3, and other formats.
  **/
-public class Cardsplus {    
+public interface Asciidoctor {    
 }
