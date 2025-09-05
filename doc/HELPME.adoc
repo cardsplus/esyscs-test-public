@@ -1,8 +1,10 @@
+:includedir: ..
 :relrootdir: ..
 = HELPME
 
-include::{relrootdir}/settings.adoc[]
+include::{includedir}/settings.adoc[]
 
+includedir={includedir} +
 relrootdir={relrootdir} +
 relfileprefix={relfileprefix} +
 relfilesuffix={relfilesuffix} +
