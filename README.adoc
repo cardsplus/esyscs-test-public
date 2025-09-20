@@ -21,7 +21,7 @@ ifndef::de,at[Keine Angabe]
 .Asciidoc-Settings
 [source, subs=attributes+, options="nowrap"]
 ----
-include::{relrootdir}/settings.adoc[]
+include::{includedir}/settings.adoc[]
 ----
 
 == xref:{relrootdir}/src/HELPME.adoc[src-Ordner]
@@ -29,5 +29,5 @@ include::{relrootdir}/settings.adoc[]
 .Gradle-Settings
 [source, subs=attributes+, options="nowrap"]
 ----
-include::{relrootdir}/settings.gradle[]
+include::{includedir}/settings.gradle[]
 ----
